@@ -1,0 +1,21 @@
+.authorInfo{
+    font-size: 13px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.authorInfo div{
+    margin-left: 10px;
+}
+.authorInfo p{
+    font-weight: bold;
+    margin: 0;
+}
+.authorInfo a{
+    color: #999993;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}

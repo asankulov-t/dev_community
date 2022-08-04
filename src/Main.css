@@ -1,0 +1,36 @@
+.App {
+  /*background: rgba(226, 244, 248, 0.7);*/
+  background-color: #F3F3F2;
+  padding: 0 150px;
+  height: 100%;
+}
+.AppBlack{
+  background-color: black;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #2F9FF8;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

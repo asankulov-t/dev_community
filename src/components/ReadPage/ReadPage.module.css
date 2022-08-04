@@ -1,0 +1,22 @@
+.readCard{
+    padding: 15px;
+    background-color: #e6e7e7;
+}
+
+.coverImg{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.readCard pre{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.tags{
+
+}
+.htmlBody img{
+    width: 100%;
+}

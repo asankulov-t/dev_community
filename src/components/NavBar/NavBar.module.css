@@ -1,0 +1,29 @@
+
+
+.navBlock{
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+}
+.navBlock ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBlock li{
+
+    /*margin-bottom: 19px;*/
+}
+.navBlock i{
+    margin-right: 8px;
+}
+
+.navBlock li:hover{
+    /*background: rgba(47, 159, 248, 0.1);*/
+    /*border-radius: 0px 37px 37px 0px;*/
+}
