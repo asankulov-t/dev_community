@@ -2,7 +2,6 @@ import {ArticlesReducerTypes, initialArtType} from "../../types/types";
 import {API} from "../../Api/Api";
 import {AnyAction, Dispatch} from "redux";
 
-// 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
 
 let initialState:initialArtType={
     data:[],

@@ -4,13 +4,12 @@ import {plusItemsAct, SetArticleThunk,} from "../../store/Reducers/SetArticleRed
 import {AppDispatch, AppRootType} from "../../store/store";
 import {ArticlesReducerTypes} from "../../types/types";
 import Content from "../Content/Content";
-import {Navigate, Route, Routes, useLocation, useNavigate} from "react-router-dom";
+import {Navigate, Route, Routes, useLocation} from "react-router-dom";
 import ReadPageContainer from "./ReadPageContainer";
 
 const ContentContainer = () => {
 
     let itemsCount = useSelector<AppRootType, number>((state) => state.SetArticleReducer.items);
-    // let tag = useSelector<AppRootType, string | unknown>((state) => state.SetArticleReducer.tag);
     let tagPath = useLocation();
     let dispatch = useDispatch<AppDispatch>();
     let data = useSelector<AppRootType, Array<ArticlesReducerTypes>>((state) => state.SetArticleReducer.data);

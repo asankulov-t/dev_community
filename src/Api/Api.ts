@@ -10,7 +10,7 @@ const instance = axios.create({
 });
 //'?tag=redux&&top=50'
 export const API = {
-    getArticles(per_page:number,tag:string='linux') {
+    getArticles(per_page:number,tag:string='') {
         return instance.get<Array<ArticlesReducerTypes>>(`?per_page=${per_page}&tag=${tag}`)
     },
     resultOfSearch(per_page:number,title:string=''){
