@@ -26,7 +26,7 @@
     "web-vitals": "^2.1.4",
     "yarn.lock": "^0.0.1-security"
   },
-  "homepage": "https://asankulov-t.github.io/dev_community",
+  "homepage": "https://asankulov-t.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
