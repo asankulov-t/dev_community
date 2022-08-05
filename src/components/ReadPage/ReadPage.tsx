@@ -3,7 +3,7 @@ import {ReadType} from "../../types/types";
 import style from './ReadPage.module.css'
 import Author from "../Common/Author/Author";
 import TagBtn from "../Common/TagBtn/TagBtn";
-const ReadPage = (props:ReadType) => {
+const ReadPage = React.memo((props:ReadType) => {
     return (
         <div className={style.readCard}>
             <Author img={props.user.profile_image} name={props.user.name} git={props.user.github_username}/>
@@ -17,6 +17,6 @@ const ReadPage = (props:ReadType) => {
             </div>
         </div>
     );
-};
+})
 
 export default ReadPage;

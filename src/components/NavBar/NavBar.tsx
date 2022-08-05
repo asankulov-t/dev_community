@@ -20,11 +20,11 @@ const NavBar = () => {
     return (
             <nav className={style.navBlock}>
                 <ul onClick={()=>getArticle(useHistory.pathname)} >
+                    <li><NavLink to="frontend"><i className="bi bi-house"></i>Home </NavLink></li>
                     <li><NavLink to="linux"><i className="bi bi-code-square"></i>Linux </NavLink></li>
                     <li><NavLink to="react"><i className="bi bi-filetype-jsx"></i>React </NavLink></li>
                     <li><NavLink to="javascript"><i className="bi bi-filetype-js"></i>JavaScript</NavLink></li>
                     <li><NavLink to="redux"><i className="bi bi-code-square"></i>Redux</NavLink></li>
-                    <li><NavLink to="redux-thunk"><i className="bi bi-code-square"></i>Redux-thunk</NavLink></li>
                     <li><NavLink to="github"><i className="bi bi-github"></i>GitHub</NavLink></li>
                 </ul>
             </nav>

@@ -7,7 +7,7 @@ import ReadPage from "../ReadPage/ReadPage";
 type ReadPageContainerType={
     url?:string
 }
-const ReadPageContainer = (props:ReadPageContainerType) => {
+const ReadPageContainer = React.memo((props:ReadPageContainerType) => {
     let data = useSelector<AppRootType, Array<ReadType>>(state => state.ReadPageReducer.data)
     return (
         <div>
@@ -24,6 +24,6 @@ const ReadPageContainer = (props:ReadPageContainerType) => {
                                        body_markdown={t.body_html} user={t.user}/>)}
         </div>
     );
-};
+})
 
 export default ReadPageContainer;

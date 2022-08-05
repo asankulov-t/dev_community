@@ -9,6 +9,7 @@ const NavSide = () => {
                 <li><NavLink to={'/Podcasts'}>Podcasts</NavLink></li>
                 <li><NavLink to={'/Videos'}>Videos</NavLink></li>
                 <li><NavLink to={'/Users'}>Users</NavLink></li>
+                <li><NavLink to={'/Favorite'}>Favorite </NavLink></li>
                 <li><NavLink to={'/sign_in'}>Sign in</NavLink></li>
             </ul>
         </Col>
